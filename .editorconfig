@@ -18,5 +18,8 @@ trim_trailing_whitespace = false
 [*.md]
 trim_trailing_whitespace = false
 
+[*.ts]
+indent_size = 2
+
 [*.vue]
 indent_size = 2
