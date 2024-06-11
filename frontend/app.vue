@@ -3,8 +3,39 @@ import { SpeedInsights } from "@vercel/speed-insights/nuxt"
 </script>
 
 <template>
-  <div>
-    <NuxtWelcome />
-    <SpeedInsights />
-  </div>
+  <section class="container mx-auto p-4">
+    <div class="flex flex-col justify-center items-center h-screen">
+      <div class="pb-4">
+        <h1 class="text-2xl">jnicrimi.com</h1>
+      </div>
+      <div class="avatar pb-4">
+        <div class="w-64 rounded-xl">
+          <img src="~/assets/img/avatar.png" alt="avatar" />
+        </div>
+      </div>
+      <ul class="menu menu-horizontal menu-lg bg-base-200 rounded-box">
+        <li>
+          <a href="https://github.com/jnicrimi"
+            ><i class="ri-github-fill text-xl"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com/jnicrimi"
+            ><i class="ri-facebook-box-fill text-xl"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://x.com/imai"
+            ><i class="ri-twitter-x-fill text-xl"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://instagram.com/jnicrimi"
+            ><i class="ri-instagram-fill text-xl"></i
+          ></a>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <SpeedInsights />
 </template>
