@@ -6,7 +6,7 @@ import pluginVue from "eslint-plugin-vue"
 export default [
   { languageOptions: { globals: { ...globals.browser, ...globals.node } } },
   {
-    ignores: [".nuxt/"],
+    ignores: [".nuxt/", ".output/"],
   },
   pluginJs.configs.recommended,
   ...tseslint.configs.recommended,
