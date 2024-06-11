@@ -15,3 +15,9 @@ pre-commit:
     yamllint:
       glob: "*.{yml,yaml}"
       run: yamllint --strict {staged_files}
+    eslint:
+      glob: '*.{js,ts,vue}'
+      run: docker-compose run --rm nuxt npx eslint {staged_files}
+    prettier:
+      glob: '*.{js,ts,vue}'
+      run: docker-compose run --rm nuxt npx prettier --check {staged_files}
