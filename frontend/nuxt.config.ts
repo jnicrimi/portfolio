@@ -6,10 +6,7 @@ export default defineNuxtConfig({
       extends: "@tsconfig/strictest/tsconfig.json",
     },
   },
-  css: [
-    '~/assets/css/main.css',
-    'remixicon/fonts/remixicon.css',
-  ],
+  css: ["~/assets/css/main.css", "remixicon/fonts/remixicon.css"],
   postcss: {
     plugins: {
       tailwindcss: {},
