@@ -4,7 +4,9 @@ import { SpeedInsights } from "@vercel/speed-insights/nuxt"
 
 <template>
   <section class="container mx-auto">
-    <slot />
+    <div class="flex flex-col justify-center items-center h-screen p-4">
+      <slot />
+    </div>
   </section>
   <SpeedInsights />
 </template>

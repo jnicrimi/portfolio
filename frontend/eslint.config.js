@@ -9,13 +9,14 @@ export default [
       globals: {
         ...globals.browser,
         ...globals.node,
+        useError: true,
       },
     },
     rules: {
       "vue/multi-word-component-names": [
         "error",
         {
-          ignores: ["default", "index"],
+          ignores: ["default", "index", "error"],
         },
       ],
     },
