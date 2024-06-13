@@ -3,7 +3,7 @@ import { SpeedInsights } from "@vercel/speed-insights/nuxt"
 </script>
 
 <template>
-  <section class="container mx-auto p-4">
+  <section class="container mx-auto">
     <slot />
   </section>
   <SpeedInsights />
