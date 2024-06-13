@@ -4,7 +4,22 @@ import tseslint from "typescript-eslint"
 import pluginVue from "eslint-plugin-vue"
 
 export default [
-  { languageOptions: { globals: { ...globals.browser, ...globals.node } } },
+  {
+    languageOptions: {
+      globals: {
+        ...globals.browser,
+        ...globals.node,
+      },
+    },
+    rules: {
+      "vue/multi-word-component-names": [
+        "error",
+        {
+          ignores: ["default", "index"],
+        },
+      ],
+    },
+  },
   {
     ignores: [".nuxt/", ".output/"],
   },
