@@ -13,4 +13,10 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  runtimeConfig: {
+    public: {
+      contentfulSpaceId: process.env.CTF_SPACE_ID,
+      contentfulAccessToken: process.env.CTF_CDA_ACCESS_TOKEN,
+    },
+  },
 })
