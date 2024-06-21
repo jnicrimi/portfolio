@@ -23,3 +23,6 @@ pre-commit:
       root: "frontend"
       glob: "*.{js,ts,vue}"
       run: docker-compose run --rm nuxt yarn prettier --check {staged_files}
+    hadlint:
+      glob: "**/Dockerfile"
+      run: hadolint {staged_files}
