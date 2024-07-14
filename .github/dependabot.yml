@@ -3,7 +3,9 @@
 version: 2
 updates:
   - package-ecosystem: 'npm'
-    directory: '/'
+    directories:
+      - '/'
+      - '/frontend'
     schedule:
       interval: 'weekly'
       day: 'saturday'
