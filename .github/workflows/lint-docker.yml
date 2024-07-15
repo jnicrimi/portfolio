@@ -1,6 +1,6 @@
 ---
 
-name: lint-dockerfile
+name: lint-docker
 
 on:
   pull_request:
@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Lint Dockerfile
+      - name: hadolint
         uses: hadolint/hadolint-action@master
         with:
           dockerfile: 'Dockerfile'
