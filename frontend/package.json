@@ -12,9 +12,9 @@
     "fix": "npx prettier --write ."
   },
   "dependencies": {
-    "@vercel/analytics": "^1.4.1",
-    "@vercel/speed-insights": "^1.1.0",
-    "contentful": "^11.4.5",
+    "@vercel/analytics": "^1.5.0",
+    "@vercel/speed-insights": "^1.2.0",
+    "contentful": "^11.4.6",
     "nuxt": "^3.15.4",
     "remixicon": "^4.6.0",
     "vue": "^3.5.13",
@@ -33,11 +33,11 @@
     "eslint-config-prettier": "^10.0.1",
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-vue": "^9.32.0",
-    "globals": "^15.14.0",
-    "postcss": "^8.5.1",
-    "prettier": "^3.4.2",
+    "globals": "^15.15.0",
+    "postcss": "^8.5.2",
+    "prettier": "^3.5.1",
     "tailwindcss": "^3.4.17",
     "typescript": "^5.7.3",
-    "typescript-eslint": "^8.23.0"
+    "typescript-eslint": "^8.24.0"
   }
 }
