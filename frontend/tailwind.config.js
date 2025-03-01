@@ -11,6 +11,4 @@ export default {
   theme: {
     extend: {},
   },
-  /* eslint-disable @typescript-eslint/no-require-imports */
-  plugins: [require("daisyui")],
 }
