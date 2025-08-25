@@ -1,5 +1,3 @@
----
-
 name: lint-frontend
 on:
   pull_request:
