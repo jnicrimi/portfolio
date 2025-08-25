@@ -1,5 +1,3 @@
----
-
 services:
   nuxt:
     build: ./docker/nuxt/
