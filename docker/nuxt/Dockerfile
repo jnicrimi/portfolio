@@ -5,8 +5,9 @@ ENV TZ Asia/Tokyo
 WORKDIR /app
 
 RUN apt-get update \
-    && apt-get install -y \
+    && apt-get install -y --no-install-recommends \
     git \
-    vim
+    vim \
+    && rm -rf /var/lib/apt/lists/*
 
 RUN npm install -g npm@latest
