@@ -12,24 +12,24 @@
     "fix": "npx prettier --write ."
   },
   "dependencies": {
-    "@tailwindcss/postcss": "^4.1.17",
+    "@tailwindcss/postcss": "^4.1.18",
     "@vercel/analytics": "^1.6.1",
     "@vercel/speed-insights": "^1.3.1",
-    "contentful": "^11.9.0",
-    "nuxt": "^4.2.1",
+    "contentful": "^11.10.1",
+    "nuxt": "^4.2.2",
     "remixicon": "^4.7.0",
     "vue": "^3.5.25",
-    "vue-router": "^4.6.3"
+    "vue-router": "^4.6.4"
   },
   "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e",
   "devDependencies": {
-    "@eslint/js": "^9.39.1",
+    "@eslint/js": "^9.39.2",
     "@nuxtjs/eslint-config-typescript": "^12.1.0",
     "@tsconfig/strictest": "^2.0.8",
     "@typescript-eslint/eslint-plugin": "^7.17.0",
     "@typescript-eslint/parser": "^7.17.0",
     "autoprefixer": "^10.4.22",
-    "daisyui": "^5.5.8",
+    "daisyui": "^5.5.13",
     "eslint": "9.x",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-import": "^2.32.0",
@@ -39,6 +39,6 @@
     "prettier": "^3.7.4",
     "tailwindcss": "^4.0.9",
     "typescript": "^5.9.3",
-    "typescript-eslint": "^8.48.1"
+    "typescript-eslint": "^8.49.0"
   }
 }
