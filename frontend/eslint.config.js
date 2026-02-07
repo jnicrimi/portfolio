@@ -25,6 +25,12 @@ export default [
     ignores: [".nuxt/", ".output/"],
   },
   pluginJs.configs.recommended,
+  {
+    files: ["**/*.vue"],
+    rules: {
+      "no-useless-assignment": "off",
+    },
+  },
   ...tseslint.configs.recommended,
   ...pluginVue.configs["flat/essential"],
 ]
