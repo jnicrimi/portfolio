@@ -2,6 +2,8 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
 
+  modules: ["@vercel/speed-insights/nuxt"],
+
   typescript: {
     tsConfig: {
       extends: "@tsconfig/strictest/tsconfig.json",
