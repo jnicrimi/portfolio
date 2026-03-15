@@ -29,4 +29,4 @@ pre-commit:
 pre-push:
   commands:
     gitleaks:
-      run: gitleaks git --log-opts "origin/main..HEAD" .
+      run: gitleaks git --log-opts "origin/main..HEAD"
