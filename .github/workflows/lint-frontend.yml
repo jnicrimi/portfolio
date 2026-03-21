@@ -10,7 +10,6 @@ permissions:
 jobs:
   eslint:
     runs-on: ubuntu-latest
-    if: ${{ github.actor != 'dependabot[bot]' }}
     defaults:
       run:
         working-directory: frontend
@@ -26,7 +25,6 @@ jobs:
         run: yarn eslint .
   prettier:
     runs-on: ubuntu-latest
-    if: ${{ github.actor != 'dependabot[bot]' }}
     defaults:
       run:
         working-directory: frontend
