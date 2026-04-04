@@ -15,10 +15,6 @@ updates:
         update-types:
           - "minor"
           - "patch"
-    assignees:
-      - 'jnicrimi'
-    reviewers:
-      - 'jnicrimi'
   - package-ecosystem: 'github-actions'
     directory: '/'
     schedule:
@@ -33,7 +29,3 @@ updates:
         update-types:
           - "minor"
           - "patch"
-    assignees:
-      - 'jnicrimi'
-    reviewers:
-      - 'jnicrimi'
