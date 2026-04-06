@@ -8,10 +8,8 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "prepare": "nuxt prepare",
-    "eslint": "eslint .",
     "lint": "eslint .",
-    "fix": "prettier --write .",
-    "prettier": "prettier --check ."
+    "fix": "prettier --write ."
   },
   "dependencies": {
     "@tailwindcss/postcss": "^4.2.2",
