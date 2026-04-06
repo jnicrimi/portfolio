@@ -10,4 +10,4 @@ RUN apt-get update \
     vim \
     && rm -rf /var/lib/apt/lists/*
 
-RUN npm install -g npm@latest
+RUN corepack enable

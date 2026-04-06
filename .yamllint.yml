@@ -1,5 +1,8 @@
 extends: default
 
+ignore:
+  - frontend/pnpm-lock.yaml
+
 rules:
   document-start: disable
   line-length: disable
