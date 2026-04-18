@@ -1,3 +1,5 @@
+import tailwindcss from "@tailwindcss/vite"
+
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
@@ -12,10 +14,8 @@ export default defineNuxtConfig({
 
   css: ["~/assets/css/main.css", "remixicon/fonts/remixicon.css"],
 
-  postcss: {
-    plugins: {
-      "@tailwindcss/postcss": {},
-    },
+  vite: {
+    plugins: [tailwindcss()],
   },
 
   runtimeConfig: {
