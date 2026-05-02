@@ -4,6 +4,7 @@ services:
     volumes:
       - ./frontend:/app:cached
       - node_modules:/app/node_modules
+      - corepack_cache:/root/.cache/node/corepack
     ports:
       - "3000:3000"
       - "24678:24678"
@@ -14,3 +15,4 @@ services:
       - COMPOSE_PROJECT_NAME=portfolio
 volumes:
   node_modules:
+  corepack_cache:
