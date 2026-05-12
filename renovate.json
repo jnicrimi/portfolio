@@ -6,11 +6,6 @@
   "minimumReleaseAge": "3 days",
   "packageRules": [
     {
-      "matchPackageNames": ["tailwindcss", "@tailwindcss/vite"],
-      "allowedVersions": "<4.2.3 || >=4.2.5",
-      "description": "Skip 4.2.3/4.2.4 due to @plugin .css regression (tailwindlabs/tailwindcss#19950). Remove this rule once 4.2.5+ is released and the pin in frontend/package.json pnpm.overrides is lifted."
-    },
-    {
       "matchManagers": ["npm"],
       "matchUpdateTypes": ["minor", "patch"],
       "groupName": "npm dependencies"
